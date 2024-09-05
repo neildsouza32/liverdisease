@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/result.css">
+    <title>Liver Disease Prediction Result</title>
+</head>
+<body>
+    <h1>Liver Disease Prediction Result</h1>
+    <p>Based on the information you provided:</p>
+    <ul>
+        <li>Age: {{ age }}</li>
+        <li>Gender: {{ gender }}</li>
+        <li>BMI: {{ bmi }}</li>
+        <li>Alcohol Consumption: {{ alcohol_consumption }} units per week</li>
+        <li>Smoking: {{ smoking }}</li>
+        <li>Genetic Risk: {{ genetic_risk }}</li>
+        <li>Physical Activity: {{ physical_activity }} hours per week</li>
+        <li>Diabetes: {{ diabetes }}</li>
+        <li>Hypertension: {{ hypertension }}</li>
+        <li>Liver Function Test: {{ liver_function_test }}</li>
+    </ul>
+    <p>The predicted result is: <strong>{{ result }}</strong></p>
+</body>
+</html>
